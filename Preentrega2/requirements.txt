@@ -1,0 +1,93 @@
+# EduIA Personalizada - Dependencias del Proyecto
+# Generado para: Pre-entrega #2 - Fast Prompting en Acción
+# Autor: José Cisneros
+
+# ================================================================
+# DEPENDENCIAS PRINCIPALES - VERSIONES ESPECÍFICAS
+# ================================================================
+
+# OpenAI API (versión específica para compatibilidad)
+openai==0.28
+
+# Jupyter Notebook (servidor local)
+jupyter
+notebook
+
+# Google Generative AI (Gemini AI Studio)
+google-generativeai
+
+# Procesamiento de datos (versiones compatibles)
+pandas==1.5.0
+numpy==1.23.5
+
+# ================================================================
+# DEPENDENCIAS ADICIONALES PARA EDUIA
+# ================================================================
+
+# Procesamiento de imágenes
+Pillow>=9.0.0
+
+# Visualización y gráficos
+matplotlib>=3.5.0
+
+# Widgets interactivos para Jupyter
+ipywidgets>=8.0.0
+
+# Requests para APIs alternativas
+requests>=2.28.0
+
+# ================================================================
+# DEPENDENCIAS OPCIONALES
+# ================================================================
+
+# Para análisis de texto avanzado (opcional)
+nltk>=3.7
+
+# Para métricas de calidad (opcional)
+scikit-learn>=1.1.0
+
+# Para exportar notebooks (opcional)
+nbconvert>=6.5.0
+
+# ================================================================
+# HERRAMIENTAS DE DESARROLLO (OPCIONAL)
+# ================================================================
+
+# Formateo de código
+black>=22.0.0
+
+# Linting
+flake8>=4.0.0
+
+# ================================================================
+# INSTRUCCIONES DE INSTALACIÓN
+# ================================================================
+
+# PASO 1: Crear entorno virtual en Miniconda
+# conda create --name eduia python=3.9
+# conda activate eduia
+
+# PASO 2: Instalar dependencias principales (EN ESTE ORDEN)
+# pip install openai==0.28
+# pip install jupyter notebook
+# pip install -U google-generativeai
+# pip install pandas==1.5.0
+# pip install numpy==1.23.5
+
+# PASO 3: Instalar dependencias adicionales
+# pip install -r requirements.txt
+
+# PASO 4: Configurar Jupyter widgets
+# jupyter nbextension enable --py widgetsnbextension --sys-prefix
+
+# PASO 5: Iniciar servidor local
+# jupyter notebook
+
+# ================================================================
+# NOTAS IMPORTANTES
+# ================================================================
+
+# - Usar OpenAI 0.28 para mejorar compatibilidad de requests
+# - Pandas 1.5.0 y NumPy 1.23.5 son versiones específicamente compatibles
+# - Google Generative AI permite usar Gemini como alternativa
+# - Instalar en el orden especificado para evitar conflictos
