@@ -1,4 +1,5 @@
-# José R Cisneros: Educación en los Tiempos de la Inteligencia Artificial.
+### José R Cisneros: 
+# Educación en los Tiempos de la Inteligencia Artificial.
 
 ## 📝 Introducción
 
@@ -39,5 +40,14 @@ Esta segunda pre-entrega profundiza en la implementación de la solución plante
 * **API OpenIA:** 👇aquí abajo está la "llave APi" Librería principal para interactuar con la API de Open IA (utilizada para la generación de texto e imagenes).
 * **`Pillow` (PIL):** Librería para el procesamiento y manipulación de imágenes.
 * **`pandas` y `numpy`:** Librerías para el manejo y análisis de datos, útiles para la evaluación de la eficacia y las estadísticas.
+
+  ---
+
+**Desarrollado por**: José Cisneros 
+
+**Curso**: Inteligencia Artificial Generación de Prompts (Comisión 84185) - CODERHOUSE | Pre-entrega #2 
+
+**Profesor**: Ezequiel Tartaglia
+
 
 
