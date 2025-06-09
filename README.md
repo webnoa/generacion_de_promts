@@ -37,7 +37,7 @@ Esta segunda pre-entrega profundiza en la implementación de la solución plante
 
 * **Python:** Lenguaje de programación principal.
 * **Jupyter Notebook:** Entorno interactivo para el desarrollo y la demostración de la POC.
-* **API OpenIA:** 👇aquí abajo está la "llave APi" Librería principal para interactuar con la API de Open IA (utilizada para la generación de texto e imagenes).
+* **API OpenIA:** Librería principal para interactuar con la API de Open IA (utilizada para la generación de texto e imagenes).
 * **`Pillow` (PIL):** Librería para el procesamiento y manipulación de imágenes.
 * **`pandas` y `numpy`:** Librerías para el manejo y análisis de datos, útiles para la evaluación de la eficacia y las estadísticas.
 
