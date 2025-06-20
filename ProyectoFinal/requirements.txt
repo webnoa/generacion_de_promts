@@ -1,0 +1,25 @@
+# Proyecto Final: Análisis Comparativo de Ecosistemas de IA
+# Dependencias del Proyecto
+
+# OpenAI API
+openai==0.28.1
+
+# Google Generative AI (Gemini, Imagen)
+google-generativeai
+
+# Procesamiento y análisis de datos
+pandas
+
+# Creación de gráficos y visualizaciones
+matplotlib
+
+# Entorno de notebook interactivo y widgets
+jupyter
+notebook
+ipywidgets>=8.0.0
+
+# Para peticiones HTTP (descargar imágenes de OpenAI)
+requests
+
+# Para manejo de imágenes
+Pillow
